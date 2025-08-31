@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Foto Bersama</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: linear-gradient(135deg, #fffb03, #c0b4b0);
+      color: #333;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 36px;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+
+    p {
+      font-size: 18px;
+      color: #fafafa;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      padding: 20px;
+      color: #fff;
+      background: rgba(0,0,0,0.4);
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kartar Selengker01🤩</h1>
+  <p>Beberapa momen Kebersamaan✨</p>
+
+  <!-- Musik otomatis -->
+  <audio autoplay loop hidden>
+    <source src="https://muhammadmustofakamalbarqi.github.io/buruh/laguburuhtani.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <!-- Galeri Foto -->
+  <div class="gallery">
+    <img src="https://files.catbox.moe/f4z7ge.jpeg" alt="Kenangan 1">
+    <img src="https://files.catbox.moe/16ya6g.jpeg" alt="Kenangan 2">
+    <img src="https://files.catbox.moe/n3urnd.jpg" alt="Kenangan 3">
+    <img src="https://files.catbox.moe/ou5lqz.jpeg" alt="Kenangan 4">
+    <img src="https://files.catbox.moe/3l197k.jpg" alt="Kenangan 5">
+    <img src="https://files.catbox.moe/cq0wk5.jpeg" alt="Kenangan 5">
+  </div>
+
+  <footer>
+    &copy; By Kartar selengker ❤️
+  </footer>
+</body>
+</html>
